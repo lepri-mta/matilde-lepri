@@ -1,0 +1,107 @@
+header {
+      padding: 0;
+      margin: 0;
+     color: white;
+    
+}
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+
+}
+img {
+    width: 100%;
+    display: flex-box;
+}
+
+.font-0{
+    font-family: badeen display;
+    color: white;
+    font-size: 200px;
+}
+
+.font-1{
+    font-family: badeen display ;
+    color: white;
+    font-size: 600px;
+}
+.font-2{
+    font-size: 60px;
+    font-family: inter regular ;
+    color: white;
+
+}
+.font-3{
+    font-size: 100px;
+    font-family: badeen display;
+    color: white;
+}
+.sfondo-0{
+    background: transparent url('immagini/portfolio_colori.jpg') no-repeat center center;
+    background-size: cover;
+   padding: 30vh 0;
+   width: 100%;
+   height: 50%;
+}
+.sfondo-1{
+    background: transparent  url('immagini/immagine_per_portfolio.jpg') no-repeat center center ;
+    background-size: cover;
+    padding: 30vw 0;
+    width: 100%;
+    height: 50%;
+    margin: 206px;
+    background-size: 70%;
+
+}
+.row{
+    font-size: 600px;
+    font-family: badeen disaplay;
+    color: white;
+    padding: 100px 0;
+}
+/* Contenitore immagine con overlay */
+.image-container {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* Overlay scuro */
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Nero al 70% di opacità */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Quando passi sopra l'immagine, l'overlay appare */
+.image-container:hover .image-overlay {
+    opacity: 1;
+}
+
+/* Testo nell'overlay */
+.overlay-title {
+    font-size: 120px;
+    font-family: badeen display;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+}
+
+.overlay-description {
+    font-size: 70px;
+    font-family: inter regular;
+    color: white;
+    text-align: center;
+}
