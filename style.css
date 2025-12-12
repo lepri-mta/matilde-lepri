@@ -17,13 +17,13 @@ img {
 }
 
 .font-0 {
-    font-family: badeen display;
+    font-family: "badeen display";
     color: white;
     font-size: 5rem; 
 }
 
 .font-1 {
-    font-family: badeen display;
+    font-family: "badeen display";
     color: white;
     font-size: 10rem; 
 }
@@ -36,7 +36,7 @@ img {
 
 .font-3 {
     font-size: 2rem; 
-    font-family: badeen display;
+    font-family: "badeen display";
     color: white;
 }
 
