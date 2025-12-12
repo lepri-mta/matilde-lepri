@@ -17,26 +17,25 @@ img {
 }
 
 .font-0 {
-    font-family: "badeen display";
+    font-family:"Badeen Display", system-ui;
     color: white;
     font-size: 5rem; 
 }
 
 .font-1 {
-    font-family: "badeen display";
-    color: white;
+    font-family: "Badeen Display", system-ui;
     font-size: 10rem; 
 }
 
 .font-2 {
     font-size: 1.2rem; 
-    font-family: inter regular;
+    font-family:  "Inter", sans-serif;
     color: white;
 }
 
 .font-3 {
     font-size: 2rem; 
-    font-family: "badeen display";
+    font-family: "Badeen Display", system-ui;
     color: white;
 }
 
